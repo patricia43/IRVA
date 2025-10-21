@@ -167,6 +167,16 @@ MonoBehaviour:
     - line: '|   tvOSBundleVersion: 1.0'
     - line: '|   bundleVersion: 0.1.0'
     - line: '|   preloadedAssets:'
+    - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b,
+        type: 3}'
+    - line: '|   - {fileID: 11400000, guid: 4f33bd90d02956a46b477c2d794b1e7e, type:
+        2}'
+    - line: '|   - {fileID: -173775948113643432, guid: 4abbe8ab4270b5441a5f86ccca8e35c2,
+        type: 2}'
+    - line: '|   - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type:
+        3}'
+    - line: '|   - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type:
+        3}'
     - line: '|   - {fileID: 11400000, guid: 61c2439d1508d7d4cb02ca37bb4ee50e, type:
         2}'
     - line: '|   metroInputSource: 0'
@@ -990,7 +1000,7 @@ MonoBehaviour:
         m_ExportAsGoogleAndroidProject: 0
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
-        m_CurrentDeploymentTargetId: __builtin__target_default
+        m_CurrentDeploymentTargetId: q4gewcgqead6h675
         m_BuildType: 2
         m_LinkTimeOptimization: 0
         m_BuildAppBundle: 0
