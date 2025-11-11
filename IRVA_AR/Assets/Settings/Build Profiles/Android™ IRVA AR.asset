@@ -169,14 +169,6 @@ MonoBehaviour:
     - line: '|   preloadedAssets:'
     - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b,
         type: 3}'
-    - line: '|   - {fileID: 11400000, guid: 4f33bd90d02956a46b477c2d794b1e7e, type:
-        2}'
-    - line: '|   - {fileID: -173775948113643432, guid: 4abbe8ab4270b5441a5f86ccca8e35c2,
-        type: 2}'
-    - line: '|   - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type:
-        3}'
-    - line: '|   - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type:
-        3}'
     - line: '|   - {fileID: 11400000, guid: 61c2439d1508d7d4cb02ca37bb4ee50e, type:
         2}'
     - line: '|   metroInputSource: 0'
@@ -298,13 +290,13 @@ MonoBehaviour:
     - line: '|   useCustomLauncherGradleManifest: 0'
     - line: '|   useCustomBaseGradleTemplate: 0'
     - line: '|   useCustomGradlePropertiesTemplate: 1'
-    - line: '|   useCustomGradleSettingsTemplate: 0'
+    - line: '|   useCustomGradleSettingsTemplate: 1'
     - line: '|   useCustomProguardFile: 1'
     - line: '|   AndroidTargetArchitectures: 2'
     - line: '|   AndroidSplashScreenScale: 0'
     - line: '|   androidSplashScreen: {instanceID: 0}'
     - line: '|   AndroidKeystoreName: D:/irva/IRVA/Keystores/lab3.2.keystore'
-    - line: '|   AndroidKeyaliasName: '
+    - line: '|   AndroidKeyaliasName: irva'
     - line: '|   AndroidEnableArmv9SecurityFeatures: 0'
     - line: '|   AndroidEnableArm64MTE: 0'
     - line: '|   AndroidBuildApkPerCpuArchitecture: 0'

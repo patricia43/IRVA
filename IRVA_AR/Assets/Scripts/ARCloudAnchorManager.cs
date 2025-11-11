@@ -59,14 +59,14 @@ public class ARCloudAnchorManager : MonoBehaviour
         FeatureMapQuality quality = arAnchorManager.EstimateFeatureMapQualityForHosting(new Pose(arCamera.transform.position, arCamera.transform.rotation));
         StartCoroutine(DisplayStatus("HostAnchor call in progress. Feature Map Quality: " + quality));
 
-        if (quality != FeatureMapQuality.Insufficient)
-        {
+        //if (quality != FeatureMapQuality.Insufficient)
+        //{
             /* TODO 4.2 Start the hosting process */
             HostCloudAnchorPromise cloudAnchor = arAnchorManager.HostCloudAnchorAsync(pendingHostAnchor, 100);
 
             /* Wait for the promise to solve (Hint! Pass the HostCloudAnchorPromise variable to the coroutine) */
             StartCoroutine(WaitHostingResult(cloudAnchor));
-        }
+        //}
     }
 
     public void Resolve()
